@@ -13,8 +13,9 @@
 }
 [class*="col-"] {
   flex: 0 0 auto;
-  
 }
+
+/* Col's */
 .col-xs-1 {
   width: calc((100% / 12) * 1);
   max-width: calc((100% / 12) * 1);
@@ -64,6 +65,7 @@
   max-width: calc((100% / 12) * 12);
 }
 
+/* Offset */
 .col-offset-1 {
   margin-left: calc((100% / 12) * 1);
 }
